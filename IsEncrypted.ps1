@@ -8,4 +8,4 @@ else
 {
     exit(1);
 }
-Get-ChildItem -File -Filter *.zip -Path $dialog.SelectedPath | ForEach-Object { .\IsEncrypt.bat $_.FullName }
+Get-ChildItem -File -Filter *.zip -Path $dialog.SelectedPath | ForEach-Object { .\IsEncrypted.bat $_.FullName }
